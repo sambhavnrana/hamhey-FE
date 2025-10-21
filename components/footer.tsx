@@ -7,20 +7,16 @@ export default function Footer() {
     <footer className="bg-gray-50 text-black py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-          {/* Brand */}
           <div className="flex flex-col">
-            {/* Company Header */}
             <div className="mb-4">
               <h3 className="text-2xl font-bold mb-4">Hamhey</h3>
               <p className="text-sm opacity-80">
                 We help students and workers relocate worldwide using AI.
               </p>
 
-              {/* The small 'random' line */}
               <div className="w-1/6 h-0.5 bg-gray-400 mt-2 mb-3"></div>
             </div>
 
-            {/* Disclaimer Line */}
             <p className="text-xs text-gray-500 mt-2">
               Hamhey provides AI-powered relocation technology and services. We
               are not a law firm or financial advisor.{" "}
@@ -30,7 +26,6 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Product */}
           <div>
             <h4 className="font-semibold mb-4">PLATFORM</h4>
             <ul className="space-y-2 text-sm opacity-80">
@@ -62,7 +57,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Company */}
           <div>
             <h4 className="font-semibold mb-4">Company</h4>
             <ul className="space-y-2 text-sm opacity-80">
@@ -84,7 +78,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Legal */}
+
           <div>
             <h4 className="font-semibold mb-4">Legal</h4>
             <ul className="space-y-2 text-sm opacity-80">
@@ -117,7 +111,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom */}
+
         <div className="border-t border-primary-foreground/20 pt-8 flex flex-col md:flex-row justify-between items-center text-sm opacity-80">
           <p>&copy; Made with ❤️ by Hamhey.</p>
           <div className="flex gap-6 mt-4 md:mt-0">

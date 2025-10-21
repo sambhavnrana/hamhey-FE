@@ -10,12 +10,11 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-background border-b border-border">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-        {/* Logo */}
+
         <Link href="/" className="text-2xl font-bold text-primary">
           Hamhey
         </Link>
 
-        {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
           <Link
             href="#about"
@@ -49,7 +48,6 @@ export default function Header() {
           </Link>
         </div>
 
-        {/* Mobile Menu Button */}
         <button
           className="md:hidden p-2"
           onClick={() => setIsOpen(!isOpen)}
@@ -59,7 +57,6 @@ export default function Header() {
         </button>
       </nav>
 
-      {/* Mobile Navigation */}
       {isOpen && (
         <div className="md:hidden border-t border-border bg-background">
           <div className="px-4 py-4 space-y-4">
